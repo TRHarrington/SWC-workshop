@@ -78,3 +78,6 @@ head[gap]
 afghanistan <- gap[1:12, ] #make data frame for afghanistan only rows 1-12
 afghanistan$gdp <- afghanistan$pop * afghanistan$gdpPercap #gdp times population - create new column
 write.csv(x = afghanistan, file = "results/afghangdp.csv") #write to csv file and put into Results folder
+
+
+
